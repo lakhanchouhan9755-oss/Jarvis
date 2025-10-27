@@ -1,0 +1,25 @@
+name: jarvis_cartoon_video
+description: Jarvis - Script to colorful cartoon video (starter)
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  path_provider: ^2.0.14
+  permission_handler: ^10.4.0
+  ffmpeg_kit_flutter_full: ^5.1.0
+  image: ^4.0.21
+  uuid: ^3.0.7
+  intl: ^0.18.1
+  http: ^0.13.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
